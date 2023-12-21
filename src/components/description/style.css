@@ -58,6 +58,15 @@
     line-height: 60px;
 }
 
+.desc-button:hover {
+    color: black;
+}
+
+.desc-button:active {
+    color: black;
+    opacity: 0.6;
+}
+
 .img-desc {
     margin-top: -100px;
     margin-left: 250px;

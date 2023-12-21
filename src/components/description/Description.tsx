@@ -1,19 +1,16 @@
 import { FC } from 'react'
 import './style.css'
-import img from '../../assets/element.svg'
-import img2 from '../../assets/desc-img.svg'
 
-export const Description: FC = () => {
+export const Description: FC<{img: string, titleBold: string, titleLight: string, titleButton: string}> = ({img, titleBold, titleLight, titleButton}) => {
     return (
         <div>
-            <img className='img' src={img} alt="image" />
             <div className='body-desc'>
                 <div className='desc-section'>
-                    <div className='desc-text_bold'>Virtual healthcare for you</div>
-                    <div className='desc-text_light'>Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone</div>
-                    <button className='desc-button'>Consult today</button>
+                    <div className='desc-text_bold'>{titleBold}</div>
+                    <div className='desc-text_light'>{titleLight}</div>
+                    <button className='desc-button'>{titleButton}</button>
                 </div>
-                <img className='img-desc' src={img2} alt="" />
+                <img className='img-desc' src={img} alt="" />
             </div>
         </div>
     )

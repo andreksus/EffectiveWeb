@@ -41,10 +41,6 @@
     line-height: normal;
 }
 
-.logoText :hover {
-    color: black;
-}
-
 .navBar {
     display: flex;
     flex-direction: row;
@@ -61,6 +57,14 @@
     font-weight: 400;
     line-height: normal;
     opacity: 0.5;
+}
+
+.navText:hover {
+    opacity: 1;    
+}
+
+.navText:active {
+    color: gray; 
 }
 
 .navText-home {
