@@ -47,10 +47,34 @@
     flex-direction: row;
     margin-bottom: 40px;
     margin-top: -540px;
-} 
+}
 
 .wrapper2 {
     display: flex;
     flex-direction: row;
 }
 
+.button {
+    margin-top: 72px;
+    width: 200px;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+
+    color: #458FF6;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 333.333% */
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.button:active {
+    color: black;
+}

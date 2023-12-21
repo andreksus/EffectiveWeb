@@ -21,6 +21,7 @@ export const Services: FC = () => {
                 <Card img={cards[4].img} titleBold={cards[4].titleBold} titleLight={cards[4].titleLight}></Card>
                 <Card img={cards[5].img} titleBold={cards[5].titleBold} titleLight={cards[5].titleLight}></Card>
             </div>
+            <button className='button'>Learn more</button>
         </div>
     )
 }
