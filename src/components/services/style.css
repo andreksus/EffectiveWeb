@@ -35,3 +35,22 @@
     line-height: 30px;
     /* 166.667% */
 }
+
+.img-shape {
+    margin-left: -51%;
+    margin-top: 40px;
+    z-index: -1;
+}
+
+.wrapper1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-top: -540px;
+} 
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+}
+
