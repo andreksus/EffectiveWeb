@@ -41,6 +41,10 @@
     line-height: normal;
 }
 
+.logoText :hover {
+    color: black;
+}
+
 .navBar {
     display: flex;
     flex-direction: row;
