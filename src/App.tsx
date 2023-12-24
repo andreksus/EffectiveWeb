@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Description } from './components/description/Description'
+import { Header } from './components/header/Header'
+import { Services } from './components/services-component/Services'
+import img from './assets/element.svg'
+
+import './index.css'
+import { descriptions } from './model/descriptionModel'
+import { Description2 } from './description2/Description2'
+import { Description3 } from './description3/Description3'
+import { Dots } from './components/dots/Dots'
+import { SliderSection } from './components/slider-section/SliderSection'
+import { ArticleSection } from './components/articles-component/ArticleSection'
+import { Footer } from './components/footer/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <Header></Header>
+      <img className='img' src={img} alt="image" />
+      <Description img={descriptions[0].img} titleBold={descriptions[0].titleBold} titleLight={descriptions[0].titleLight} titleButton={descriptions[0].titleButton}/>
+      <Services/>
+      <Description2 img={descriptions[1].img} titleBold={descriptions[1].titleBold} titleLight={descriptions[1].titleLight} titleButton={descriptions[1].titleButton}/>
+      <Dots/>
+      <Description3 img={descriptions[2].img} titleBold={descriptions[2].titleBold} titleLight={descriptions[2].titleLight} titleButton={descriptions[2].titleButton}/>
+      <SliderSection/>
+      <ArticleSection/>
+      <Footer/>
+    </div>
   )
 }
 
