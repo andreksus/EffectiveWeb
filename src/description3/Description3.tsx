@@ -3,7 +3,7 @@ import './style.css'
 
 export const Description3: FC<{img: string, titleBold: string, titleLight: string, titleButton: string}> = ({img, titleBold, titleLight, titleButton}) => {
     return (
-        <div className='margin_top3'>
+        <div className='margin_top'>
             <div className='body-descri'>
                 <div className='desc-section'>
                     <div className='desc-text_bold'>{titleBold}</div>
