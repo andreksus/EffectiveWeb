@@ -1,16 +1,16 @@
 import { FC } from 'react'
-import './style.css'
 import imgShape from '../../assets/Vector.svg'
-import { Card } from '../Card/Card'
+import { Card } from '../card/Card'
 import { cards } from '../../model/cardModel'
 import { BackElement } from './BackElement'
+import './serviceStyle.css'
 
 export const Services: FC = () => {
     return (
         <div className='body-services'>
-            <div className='title'>Our services</div>
-            <div className='divider'></div>
-            <div className='text'>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</div>
+            <div className='titl'>Our services</div>
+            <div className='dividr'></div>
+            <div className='tex'>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</div>
             <img className='img-shape' src={imgShape} alt="" />
             <div className='wrapper1'>
                 <Card img={cards[0].img} titleBold={cards[0].titleBold} titleLight={cards[0].titleLight}></Card>

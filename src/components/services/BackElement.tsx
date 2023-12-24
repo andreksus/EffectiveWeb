@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import './style.css'
+import './serviceStyle.css'
 import img from '../../assets/element2.svg'
 
 export const BackElement : FC = () => {

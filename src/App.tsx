@@ -9,6 +9,7 @@ import { descriptions } from './model/descriptionModel'
 import { Description2 } from './description2/Description2'
 import { Description3 } from './description3/Description3'
 import { Dots } from './components/dots/Dots'
+import { SliderSection } from './components/slider-section/SliderSection'
 
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
       <Description img={descriptions[0].img} titleBold={descriptions[0].titleBold} titleLight={descriptions[0].titleLight} titleButton={descriptions[0].titleButton}/>
       <Services/>
       <Description2 img={descriptions[1].img} titleBold={descriptions[1].titleBold} titleLight={descriptions[1].titleLight} titleButton={descriptions[1].titleButton}/>
-      <Dots />
+      <Dots/>
       <Description3 img={descriptions[2].img} titleBold={descriptions[2].titleBold} titleLight={descriptions[2].titleLight} titleButton={descriptions[2].titleButton}/>
+      <SliderSection/>
     </div>
   )
 }
