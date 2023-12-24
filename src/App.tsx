@@ -11,8 +11,7 @@ import { Description3 } from './description3/Description3'
 import { Dots } from './components/dots/Dots'
 import { SliderSection } from './components/slider-section/SliderSection'
 import { ArticleSection } from './components/articles-component/ArticleSection'
-import { Article } from './components/article-component/Article'
-import { cards } from './model/cardModel'
+import { Footer } from './components/footer/Footer'
 
 
 function App() {
@@ -28,6 +27,7 @@ function App() {
       <Description3 img={descriptions[2].img} titleBold={descriptions[2].titleBold} titleLight={descriptions[2].titleLight} titleButton={descriptions[2].titleButton}/>
       <SliderSection/>
       <ArticleSection/>
+      <Footer/>
     </div>
   )
 }

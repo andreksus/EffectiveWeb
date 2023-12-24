@@ -19,7 +19,7 @@ export const ArticleSection : FC = () => {
                 <div className="article"></div>
                 <div className="article"></div>
             </div>
-            <button className="viewbtn">View All</button>
+            <button className="viewbtn">View all</button>
             <div className="dots2"></div>
         </div>
     );
