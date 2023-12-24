@@ -37,5 +37,24 @@ export const cards: ICard[] = [
         img: "https://storage.yandexcloud.net/web-effective-lab/cards-images/Frame%20(5).svg",
         titleBold: "Tracking",
         titleLight: "Track and save your medical history and health data ",
-    }
+    },
+    
+    {
+        img: "https://storage.yandexcloud.net/web-effective-lab/articles-images/image%203.svg",
+        titleBold: "Natural care for healthy facial skin",
+        titleLight: "A healthy lifestyle should start from now and also for your skin health. There are some...",
+    },
+    
+    {
+        img: "https://storage.yandexcloud.net/web-effective-lab/articles-images/image%202.svg",
+        titleBold: "Disease detection, check up in the laboratory",
+        titleLight: "In this case, the role of the health laboratory is very important to do a disease detection...",
+    },
+    
+    {
+        img: "https://storage.yandexcloud.net/web-effective-lab/articles-images/image%202%20(1).svg",
+        titleBold: "Herbal medicines that are safe for consumption",
+        titleLight: "Herbal medicine is very widely used at this time because of its very good for your health...",
+    },
+    
 ]
