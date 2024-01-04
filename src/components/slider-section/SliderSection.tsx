@@ -9,7 +9,7 @@ import boldArrow from '../../assets/bold-arrow.svg'
 
 export const SliderSection: FC = () => {
     return (
-        <div>
+        <div className='flex align-center column'>
             <div className='body margin-top flex column align-center'>
                 <img src={dots} className='dots' alt="" />
                 <div className='title'>What our customer are saying</div>
