@@ -1,0 +1,104 @@
+.footer1 {
+    width: 96%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3%;
+    margin-top: -70px;
+    z-index: -1;
+}
+
+.footer2{
+    margin-top: -100px;
+}
+
+
+.body {
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.p1 {
+    width: 310px;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.p2 {
+    width: 310px;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 175% */
+}
+
+.circle-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    height: 41px;
+    width: 41px;
+    border-radius: 20px;
+}
+
+.logo-T {
+    color: #5B9BF3;
+    font-family: 'Mulish';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h1 {
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h2 {
+    margin-top: 0;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 300% */
+}
+
+.h4 {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    /* 211.111% */
+}

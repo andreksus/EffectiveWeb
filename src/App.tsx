@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div>
+      <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'></link>
       <Header></Header>
       <img className='img' src={img} alt="image" />
       <Description img={descriptions[0].img} titleBold={descriptions[0].titleBold} titleLight={descriptions[0].titleLight} titleButton={descriptions[0].titleButton}/>

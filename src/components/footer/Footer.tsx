@@ -1,48 +1,50 @@
 import { FC } from "react";
-import './footerStyle.css'
-import footer1 from '../../assets/ell.svg'
-import footer12 from '../../assets/footer11.svg'
+import styles from './footerStyle.module.css'
+import footer2 from '../../assets/ell.svg'
+import footer1 from '../../assets/footer11.svg'
 
 export const Footer: FC = () => {
     return (
-        <div className="center">
-            <img className="footer11" src={footer12} alt="" />
-            <div className="footer-row">
-                <div className="footer-first">
-                    <div className="logo-flex">
-                        <div className="logo_footer">
-                            <div className="T">T</div>
+        <div>
+            <div className={styles['footer1']}>
+                <img src={footer1} alt="" />
+            </div>
+            <div className={styles['body']}>
+                <div>
+                    <div className={styles['logo']}>
+                        <div className={styles['circle-logo']}>
+                            <p className={styles['logo-T']}>T</p>
                         </div>
-                        <h1 className="footer-first_title">
-                            HealthCare
-                        </h1>
+                        <h1 className={styles['h1']}>HealthCare</h1>
                     </div>
-                    <p className="footer-first_title2">HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                    <p className="footer-first_title3">©HealthCare PTY LTD 2023. All rights reserved</p>
+                    <p className={styles['p1']}>HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                    <p className={styles['p2']}>©HealthCare PTY LTD 2023. All rights reserved</p>
                 </div>
-                <div className="column">
-                    <p className="footer-second-big margin-footer_0">Company</p>
-                    <p className="footer-second-small margin-footer_0">About</p>
-                    <p className="footer-second-small margin-footer_0">Testimanials</p>
-                    <p className="footer-second-small margin-footer_0">Find a doctor</p>
-                    <p className="footer-second-small margin-footer_0">Apps</p>
+                <div>
+                    <h2 className={styles['h2']}>Company</h2>
+                    <h4 className={styles['h4']}>About</h4>
+                    <h4 className={styles['h4']}>Testimonials</h4>
+                    <h4 className={styles['h4']}>Find a doctor</h4>
+                    <h4 className={styles['h4']}>Apps</h4>
                 </div>
-                <div className="column">
-                    <p className="footer-second-big margin-footer_0">Region</p>
-                    <p className="footer-second-small margin-footer_0">Indonesia</p>
-                    <p className="footer-second-small margin-footer_0">Singapore</p>
-                    <p className="footer-second-small margin-footer_0">Hongkong</p>
-                    <p className="footer-second-small margin-footer_0">Canada</p>
+                <div>
+                    <h2 className={styles['h2']}>Region</h2>
+                    <h4 className={styles['h4']}>Indonesia</h4>
+                    <h4 className={styles['h4']}>Singapore</h4>
+                    <h4 className={styles['h4']}>Hongkong</h4>
+                    <h4 className={styles['h4']}>Canada</h4>
                 </div>
-                <div className="column">
-                    <p className="footer-second-big margin-footer_0">Help</p>
-                    <p className="footer-second-small margin-footer_0">Help center</p>
-                    <p className="footer-second-small margin-footer_0">Contact support</p>
-                    <p className="footer-second-small margin-footer_0">Instructions</p>
-                    <p className="footer-second-small margin-footer_0">How it works</p>
+                <div>
+                    <h2 className={styles['h2']}>Jelp</h2>
+                    <h4 className={styles['h4']}>Help center</h4>
+                    <h4 className={styles['h4']}>Contact support</h4>
+                    <h4 className={styles['h4']}>Instructions</h4>
+                    <h4 className={styles['h4']}>How it works</h4>
                 </div>
             </div>
-            <img className="footer22" src={footer1} alt="" />
+            <div className={styles['footer2']}>
+                <img src={footer2} alt="" />
+            </div>
         </div>
     );
 }
