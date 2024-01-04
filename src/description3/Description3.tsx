@@ -7,9 +7,9 @@ export const Description3: FC<{img: string, titleBold: string, titleLight: strin
         <div className='margin_top'>
             <div className='body-descri'>
                 <div className='desc-section'>
-                    <div className='desc-text_bold'>{titleBold}</div>
+                    <h1 className='desc-text_bold'>{titleBold}</h1>
                     <div className='divider'></div>
-                    <div className='desc-text_light'>{titleLight}</div>
+                    <p className='desc-text_light'>{titleLight}</p>
                     <button className='button'>
                         {titleButton}
                         <img className='arrow' src={arrow} alt="" /></button>

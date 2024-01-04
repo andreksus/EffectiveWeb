@@ -8,9 +8,9 @@ import './serviceStyle.css'
 export const Services: FC = () => {
     return (
         <div className='body-services'>
-            <div className='titl'>Our services</div>
+            <h1 className='titl'>Our services</h1>
             <div className='dividr'></div>
-            <div className='tex'>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</div>
+            <p className='tex'>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             <img className='img-shape' src={imgShape} alt="" />
             <div className='wrapper1'>
                 <Card img={cards[0].img} titleBold={cards[0].titleBold} titleLight={cards[0].titleLight}></Card>

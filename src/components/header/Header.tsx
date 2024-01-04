@@ -7,18 +7,18 @@ export const Header : FC = () => {
         <div className="header">
             <div className="logo">
                 <div className="logoCircle">
-                    <div className="logoT">
+                    <p className="logoT">
                         T
-                    </div>
+                    </p>
                 </div>
-                <div className="logoText">HealthCare</div>
+                <h3 className="logoText">HealthCare</h3>
             </div>
             <div className="navBar">
-                <div className="navText navText-home">Home</div>
-                <div className="navText">Find a doctor</div>
-                <div className="navText">Apps</div>
-                <div className="navText">Testimonials</div>
-                <div className="navText">About us</div>
+                <p className="navText navText-home">Home</p>
+                <p className="navText">Find a doctor</p>
+                <p className="navText">Apps</p>
+                <p className="navText">Testimonials</p>
+                <p className="navText">About us</p>
             </div>
         </div>
     )

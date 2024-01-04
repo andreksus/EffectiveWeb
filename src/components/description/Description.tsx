@@ -6,8 +6,8 @@ export const Description: FC<{img: string, titleBold: string, titleLight: string
         <div>
             <div className='body-desc'>
                 <div className='desc-section'>
-                    <div className='desc-text_bold'>{titleBold}</div>
-                    <div className='desc-text_light'>{titleLight}</div>
+                    <h1 className='desc-text_bold'>{titleBold}</h1>
+                    <p className='desc-text_light'>{titleLight}</p>
                     <button className='desc-button'>{titleButton}</button>
                 </div>
                 <img className='img-desc' src={img} alt="" />

@@ -7,8 +7,8 @@ export const Card: FC<{img: string, titleBold: string, titleLight: string}> = ({
     return (
         <div className='card'>
             <img className='img margin_left' src={img} alt="" />
-            <div className='title-bold margin_left'>{titleBold}</div>
-            <div className='title-light margin_left'>{titleLight}</div>
+            <p className='title-bold margin_left'>{titleBold}</p>
+            <p className='title-light margin_left'>{titleLight}</p>
         </div>
     )
 }

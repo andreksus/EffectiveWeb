@@ -13,33 +13,33 @@ export const Footer: FC = () => {
                         <div className="logo_footer">
                             <div className="T">T</div>
                         </div>
-                        <div className="footer-first_title">
+                        <h1 className="footer-first_title">
                             HealthCare
-                        </div>
+                        </h1>
                     </div>
-                    <div className="footer-first_title2">HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</div>
-                    <div className="footer-first_title3">©HealthCare PTY LTD 2023. All rights reserved</div>
+                    <p className="footer-first_title2">HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                    <p className="footer-first_title3">©HealthCare PTY LTD 2023. All rights reserved</p>
                 </div>
                 <div className="column">
-                    <div className="footer-second-big">Company</div>
-                    <div className="footer-second-small">About</div>
-                    <div className="footer-second-small">Testimanials</div>
-                    <div className="footer-second-small">Find a doctor</div>
-                    <div className="footer-second-small">Apps</div>
+                    <p className="footer-second-big margin-footer_0">Company</p>
+                    <p className="footer-second-small margin-footer_0">About</p>
+                    <p className="footer-second-small margin-footer_0">Testimanials</p>
+                    <p className="footer-second-small margin-footer_0">Find a doctor</p>
+                    <p className="footer-second-small margin-footer_0">Apps</p>
                 </div>
                 <div className="column">
-                    <div className="footer-second-big">Region</div>
-                    <div className="footer-second-small">Indonesia</div>
-                    <div className="footer-second-small">Singapore</div>
-                    <div className="footer-second-small">Hongkong</div>
-                    <div className="footer-second-small">Canada</div>
+                    <p className="footer-second-big margin-footer_0">Region</p>
+                    <p className="footer-second-small margin-footer_0">Indonesia</p>
+                    <p className="footer-second-small margin-footer_0">Singapore</p>
+                    <p className="footer-second-small margin-footer_0">Hongkong</p>
+                    <p className="footer-second-small margin-footer_0">Canada</p>
                 </div>
                 <div className="column">
-                    <div className="footer-second-big">Help</div>
-                    <div className="footer-second-small">Help center</div>
-                    <div className="footer-second-small">Contact support</div>
-                    <div className="footer-second-small">Instructions</div>
-                    <div className="footer-second-small">How it works</div>
+                    <p className="footer-second-big margin-footer_0">Help</p>
+                    <p className="footer-second-small margin-footer_0">Help center</p>
+                    <p className="footer-second-small margin-footer_0">Contact support</p>
+                    <p className="footer-second-small margin-footer_0">Instructions</p>
+                    <p className="footer-second-small margin-footer_0">How it works</p>
                 </div>
             </div>
             <img className="footer22" src={footer1} alt="" />

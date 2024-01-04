@@ -12,17 +12,17 @@ export const SliderSection: FC = () => {
         <div className='flex align-center column'>
             <div className='body margin-top flex column align-center'>
                 <img src={dots} className='dots' alt="" />
-                <div className='title'>What our customer are saying</div>
+                <h1 className='title'>What our customer are saying</h1>
                 <div className="divider"></div>
                 <div className="flex row align-center margin-top_50">
                     <div className="profile flex row">
                         <img src={avatar} alt="" />
                         <div className="flex column margin-left_30 justify-center">
-                            <div className="bold">Edward Newgate</div>
-                            <div className="light">Dounder Circle</div>
+                            <p className="bold margin_0">Edward Newgate</p>
+                            <p className="light margin_0">Dounder Circle</p>
                         </div>
                     </div>
-                    <div className="text width_420 margin-left_110">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</div>
+                    <p className="text width_420 margin-left_110 margin_0">“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
                 </div>
                 <img src={element} className='dots2' alt="" />
                 <div className='flex row justify-center'>
