@@ -1,9 +1,9 @@
 import { FC } from 'react'
-import './serviceStyle.css'
+import styles from'./serviceStyle.module.css'
 import img from '../../assets/element2.svg'
 
 export const BackElement : FC = () => {
     return (
-    <img className='back-element' src={img} alt="image" />
+    <img className={styles['back-element']} src={img} alt="image" />
     );
 }
