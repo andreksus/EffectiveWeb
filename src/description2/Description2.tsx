@@ -1,16 +1,16 @@
 import { FC } from 'react'
-import './style.css'
+import styles from './style.module.css'
 
 export const Description2: FC<{img: string, titleBold: string, titleLight: string, titleButton: string}> = ({img, titleBold, titleLight, titleButton}) => {
     return (
-        <div className='margin_top'>
-            <div className='body-desc'>
-                <img className='img-descc' src={img} alt="" />
-                <div className='desc-section'>
-                    <h1 className='desc-text_bold'>{titleBold}</h1>
-                    <div className='divider'></div>
-                    <p className='desc-text_light'>{titleLight}</p>
-                    <button className='button'>{titleButton}</button>
+        <div className={styles['margin_top']}>
+            <div className={styles['body-desc']}>
+                <img className={styles['img-descc']} src={img} alt="" />
+                <div className={styles['desc-section']}>
+                    <h1 className={styles['desc-text_bold']}>{titleBold}</h1>
+                    <div className={styles['divider']}></div>
+                    <p className={styles['desc-text_light']}>{titleLight}</p>
+                    <button className={styles['button']}>{titleButton}</button>
                 </div>
             </div>
         </div>

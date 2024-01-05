@@ -1,14 +1,14 @@
 import { FC } from 'react'
-import './style.css'
+import styles from './style.module.css'
 
 export const Card: FC<{img: string, titleBold: string, titleLight: string}> = ({img, titleBold, titleLight}) => {
 
 
     return (
-        <div className='card'>
-            <img className='img margin_left' src={img} alt="" />
-            <p className='title-bold margin_left'>{titleBold}</p>
-            <p className='title-light margin_left'>{titleLight}</p>
+        <div className={styles['card']}>
+            <img className={styles['img']} src={img} alt="" />
+            <p className={styles['title-bold']}>{titleBold}</p>
+            <p className={styles['title-light']}>{titleLight}</p>
         </div>
     )
 }

@@ -1,17 +1,17 @@
 import { FC } from "react";
-import './articleStyle.css'
+import styles from'./articleStyle.module.css'
 import articleArrow from '../../assets/article-arrow.svg'
 
 export const Article : FC<{img: string, boldTitle: string, lightTitle: string}> = ({img, boldTitle, lightTitle}) => {
     return (
-        <div className="flex column article-body">
-            <img className="article-img article-margin_33" src={img} alt="img" />
-            <div className="article-bold_text article-margin_33">{boldTitle}</div>
-            <div className="article-light_text article-margin_33">{lightTitle}</div>
-            <div className="article-blue_text article-margin_33">
+        <div className={styles["article-body"]}>
+            <img className={styles["article-img"]} src={img} alt="img" />
+            <p className={styles["article-bold_text"]}>{boldTitle}</p>
+            <p className={styles["article-light_text"]}>{lightTitle}</p>
+            <p className={styles["article-blue_text"]}>
                 Read more
-                <img className="article-arrow" src={articleArrow} alt="" />
-                </div>
+                <img className={styles["article-arrow"]} src={articleArrow} alt="" />
+                </p>
         </div>
     );
 }
