@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoCircle {
+    display: flex;
+    flex-direction: row;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+    background: #458FF6;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+}
+
+.logoT {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Muli', sans-serif;
+}
+
+.logoText {
+    display: flex;
+    align-items: center;
+    color: #233348;
+    font-family: 'Muli', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navText {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    color: var(--1f1534-hyfen, #1F1534);
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.navText:hover {
+    opacity: 1;    
+}
+
+.navText:active {
+    color: gray; 
+}
+
+.navText-home {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    color: var(--1f1534-hyfen, #1F1534);
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    font-weight: 700;
+    opacity: 1;
+}
