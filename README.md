@@ -9,3 +9,4 @@ npm --version
 
 ![Проект билдится на этой версии](/src/assets/build-pic.jpg)
 
+![](/src/assets/builddd.jpg)
