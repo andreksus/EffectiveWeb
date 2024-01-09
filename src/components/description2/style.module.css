@@ -1,0 +1,82 @@
+.img-descc {
+    margin-left: 135px;
+}
+
+.body-desc {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+
+.desc-text_bold {
+    width: 400px;
+    color: #000;
+    font-family: Muli;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 25px;
+    /* 116.667% */
+}
+
+.desc-text_light {
+    width: 400px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.margin_top {
+    margin-top: 220px;
+}
+
+.desc-section{
+    margin-right: 192px;
+}
+
+.divider {
+    margin-top: 26px;
+    margin-bottom: 33px;
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #000;
+}
+
+.button {
+    margin-top: 67px;
+    width: 200px;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+
+    color: #458FF6;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 333.333% */
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.button:active {
+    color: black;
+}
